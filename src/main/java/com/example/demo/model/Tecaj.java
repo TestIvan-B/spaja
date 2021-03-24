@@ -3,12 +3,11 @@ package com.example.demo.model;
 
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
-@ToString
+
 @Getter
 @Setter
 @Entity
@@ -65,13 +64,6 @@ public class Tecaj{
 
 
 
-   /* public Tecaj(String odDatum, LocalDate doDatum, LocalDate valuta, Double srednja) {
-
-    }
-
-    public Tecaj(String valuta, Data odDatum, Data doDatum, Double srednja) {
-
-    }*/
 
     public Tecaj() {
 

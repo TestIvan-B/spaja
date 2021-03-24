@@ -18,11 +18,11 @@ public interface TecajRepo extends CrudRepository<Tecaj, Long> {
     @Query(value = "select valuta from valute group by valuta", nativeQuery = true)
     List<String> dajValute();
 
-    @Query(value = "select srednji_tecaj from valute where datum_primjene between ?1 and ?2 and valuta=?3", nativeQuery = true)
-    List<String> proSjek(LocalDate odDatum , LocalDate doDatum, String valuta);
+    @Query(value = "select srednji_tecaj from valute where valuta=?1 and datum_primjene between ?2 and ?3", nativeQuery = true)
+    List<String> proSjek(String valuta , LocalDate odDatum , LocalDate doDatum);
 
-    @Query(value = "select srednji_tecaj from valute where datum_primjene between ?1 and ?2 and valuta=?3", nativeQuery = true)
-    List<String> prosjekJedan(LocalDate valuta , LocalDate odDatum , String doDatum);
+    @Query(value = "select srednji_tecaj from valute where valuta=?1 and datum_primjene between ?2 and ?3", nativeQuery = true)
+    List<String> prosjekJedan(String valuta , LocalDate odDatum , LocalDate doDatum);
 
 
 }
