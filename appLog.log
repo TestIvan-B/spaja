@@ -1,0 +1,8 @@
+2021-03-24 11:48:00,445 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-2} Krivo unesen datum
+2021-03-24 11:48:08,367 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-3} Krivo unesen datum
+2021-03-24 11:48:09,375 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-4} Krivo unesen datum
+2021-03-24 11:48:25,605 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-5} Krivo unesen datum
+2021-03-24 11:48:51,450 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-6} Krivo unesen datum
+2021-03-24 11:48:56,571 [ERROR] com.example.demo.controller.TecajController {http-nio-1175-exec-7} Krivo unesen datum
+2021-03-24 11:49:02,926 [INFO] com.zaxxer.hikari.HikariDataSource {SpringContextShutdownHook} HikariPool-1 - Shutdown initiated...
+2021-03-24 11:49:02,941 [INFO] com.zaxxer.hikari.HikariDataSource {SpringContextShutdownHook} HikariPool-1 - Shutdown completed.
